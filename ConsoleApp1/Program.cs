@@ -11,14 +11,15 @@ namespace ConsoleApp1
         }
         static void Cicle()
         {
-            int n = 4;
-            int x = 1;
-            Console.Write("1 ");
-            for(int a=2; a<=5;a++)
+            double a1 = -200;
+            double d=0.2;
+            double x = -200;
+            for(int a=2; a<=150;a++)
             {
-                x = x + n;
-                Console.Write($"{x} ");
+                a1 = a1 - d;
+                x = x + a1;
             }
+            Console.WriteLine($"сумма:{x:F2}");
         }
     }
 }
